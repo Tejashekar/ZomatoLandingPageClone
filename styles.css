@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.Herosection{
+    background: url(./image/heroSectionBackground.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 65vh; 
+    im
+    
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 30px;
+}
+.navbar a{
+    color: white;
+    text-decoration: dotted;
+}
+.navbar__menu_cointainer{
+    display: flex;
+    gap: 30px;
+}
+.navbar__menu_cointainer .user_icon{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    padding: 3px;;
+    /* align-self: center; */
+    justify-content: center;
+    border-radius: 100%;
+    border: solid 1px;
+    display: none;
+}
+.Herosection__title_cointainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    /* height:calc(60vh - 65px); */
+    height: 250px;
+}
+
+.Herosection_logo{ 
+    height: 60px;
+    width: 350px;
+    
+}
+.Herosection__title_text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* when screen size is form 0-600 thn the elements on the screen needs to be adjusted as follows */
+@media only screen and (max-width: 600px){
+    .navbar__menu_cointainer .user_icon{
+        display:flex;
+
+    }
+    .Link{
+        display:none;
+    }
+    .Herosection{
+        min-height: 85vh;
+    }
+}
