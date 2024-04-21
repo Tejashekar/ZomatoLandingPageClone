@@ -13,11 +13,11 @@
     
 }
 .navbar{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 65px;
-    padding: 30px;
+    display: flex ; 
+    align-items:center;
+    justify-content:space-between;
+    height:65 px;
+    padding:30 px;
 }
 .navbar a{
     color: white;
@@ -25,13 +25,15 @@
 }
 .navbar__menu_cointainer{
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    padding: 20px;
+    font-weight: 10px;
 }
 .navbar__menu_cointainer .user_icon{
     height: 25px;
     width: 25px;
     display: flex;
-    padding: 3px;;
+    padding: 3px;
     /* align-self: center; */
     justify-content: center;
     border-radius: 100%;
@@ -43,21 +45,66 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:25px;
+    gap:35px;
     /* height:calc(60vh - 65px); */
-    height: 250px;
+    height: 300px;
+    padding: 10px;
+
 }
 
 .Herosection_logo{ 
     height: 60px;
-    width: 350px;
+    width: 300px;
     
 }
 .Herosection__title_text{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
+.Herosection__title_input{
+    background-color: white;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 45%;
+    width: 66%;
+    border-radius: 10px;
+
+
+} 
+.Herosection__title_input_location,.Herosection__title_input_search{
+ padding: 5px;
+ border: none;
+}
+..Herosection__title_input_location{
+    width: 30%;
+
+
+}
+.Herosection__title_input_search{
+    width: 70%;
+    position:relative;
+    left: -300px;
+    border-left: 2px solid grey;
+}
+.container__weOffer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.weOffer__cards{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-attachment: white;
+    overflow: hidden;
+    transition: ;
+}
+
+
 
 /* when screen size is form 0-600 thn the elements on the screen needs to be adjusted as follows */
 @media only screen and (max-width: 600px){
