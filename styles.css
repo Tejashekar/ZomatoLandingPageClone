@@ -123,6 +123,7 @@
 }
 /* for para tag */
 .weOffer__orderonline p{
+    padding: auto;
     font-size: 15px;
     font-weight: 250;
 }
