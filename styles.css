@@ -96,14 +96,36 @@
     justify-content: center;
 
 }
-.weOffer__cards{
+.weOffer__orderonline:hover{
+;
     border: 1px solid gray;
     border-radius: 10px;
     background-attachment: white;
     overflow: hidden;
-    transition: ;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
 }
-
+.weOffer__orderonline img{
+    width:350px;
+    height: 160px;
+    object-fit: cover ;
+    object-position: center;
+}
+/* To give spaces b/w the we offer images */
+.weOffer__orderonline{
+    padding:10px;
+}
+/* to set font size of the we offer images */
+/* for h2 tag */
+.weOffer__orderonline h2{
+   font-size: 20px;
+    font-weight: 300;
+}
+/* for para tag */
+.weOffer__orderonline p{
+    font-size: 15px;
+    font-weight: 250;
+}
 
 
 /* when screen size is form 0-600 thn the elements on the screen needs to be adjusted as follows */
