@@ -33,6 +33,7 @@
     <title>Zomato Landing Page Clone</title>
   </head>
   <body> 
+    <!-- hero section (navbar) -->
     <section class="Herosection">
         <head>
             <nav class="navbar">
@@ -59,38 +60,78 @@
           <input class="Herosection__title_input_search" type="text" placeholder="Search for a resturant"/>
           </div>
         </div>
-      <br/>
-      
+        
     </section>
+    <!-- we offer section images and offers form zomato -->
     <section class="container__weOffer">
-      <div class="weOffer__orderonline">
+      <div class="weOffer__cards">
         <img src="./image/item1.png"/>
         <div>
           <h2>Order online</h2>
           <p>stay home and order to your door step</p>
         </div>
       </div>
-      <div class="weOffer__orderonline">
-      <div class="weOffer__dining">
+      <div class="weOffer__cards">
         <img src="./image/item2.png"/>
         <div>
-
           <h2>Dining</h2>
           <p>View the city's favourite dining venues</p>
         </div>
       </div>
-      </div>
-      <div class="weOffer__orderonline">
-      <div class="weOffer__nightlifeClubs">
+      <div class="weOffer__cards">
         <img src="./image/item3.png"/>
         <div>
           <h2>Night life and Clubs</h2>
           <p>Explore the city's top nightlife outlets</p>
         </div>
       </div>
-      </div>
 
     </section>
+    <!-- collection section -->
+    <section class="container collections">  
+      <!-- here there are two classes and container acts as parent tag and collections acts as child tag
+      if cointainer is called then all tags under it gets called, cointainer can be used for induvidual tags -->
+      <h1>Collections</h1>
+      <div class="container__collections_sub_head">
+        <span>Explore curated lists of top restaurants, cafes, pubs, and bars in Bengaluru, based on trends</span>   
+        <span>All Collections in Bengaluru</span>
+      </div>
+      <div class="container__collections_cards">
+        <div class="cards card1">
+          <div class="overlay">
+            <div class="content">
+              <h4>Live cricket screening</h4>
+              <span>36 places</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards card2">
+          <div class="overlay">
+            <div class="content">
+              <h4>Top trending spots</h4>
+              <span>32 places</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards card3">
+          <div class="overlay">
+            <div class="content">
+              <h4>Newly openend places</h4>
+              <span>13 places</span>
+            </div>
+          </div>
+        </div>
+        <div class="cards card4">
+          <div class="overlay">
+            <div class="content">
+              <h4>Best Rooftop places</h4>
+              <span>45 places</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
   </body>
 </html>
