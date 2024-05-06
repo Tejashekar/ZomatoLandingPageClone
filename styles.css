@@ -204,6 +204,25 @@
 .content h4{
     font-weight: 400px;
 }
+.container__get_the_app {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,251,247,);
+    width:100%;
+    padding: 3rem 6rem;
+
+}
+
+.container__get_the_app .semicontainer{
+    display: flex;
+    width:60%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
 
 /* when screen size is form 0-600 thn the elements on the screen needs to be adjusted as follows */
 @media only screen and (max-width: 600px){
